@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AgencyLider | Agencia de Viajes</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #f5f7fa;
+      color: #333;
+    }
+    header {
+      background: linear-gradient(135deg, #0a6cf1, #1fa2ff);
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+    }
+    header p {
+      font-size: 1.2rem;
+    }
+    nav {
+      background-color: #003366;
+      padding: 10px 0;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    section {
+      padding: 50px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: white;
+      border-radius: 12px;
+      padding: 25px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    .card h3 {
+      color: #0a6cf1;
+      margin-bottom: 10px;
+    }
+    .btn {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 12px 25px;
+      background-color: #0a6cf1;
+      color: white;
+      border-radius: 25px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .btn:hover {
+      background-color: #084bb5;
+    }
+    footer {
+      background-color: #003366;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>AgencyLider</h1>
+    <p>Tu mejor experiencia de viaje comienza aquí</p>
+  </header>
+
+  <nav>
+    <a href="#inicio">Inicio</a>
+    <a href="#nosotros">Nosotros</a>
+    <a href="#destinos">Destinos</a>
+    <a href="#servicios">Servicios</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+
+  <section id="nosotros">
+    <h2>¿Quiénes somos?</h2>
+    <p>
+      En <strong>AgencyLider</strong> somos una agencia de viajes comprometida con brindar
+      experiencias únicas, seguras y memorables. Diseñamos viajes personalizados para
+      que disfrutes cada destino al máximo.
+    </p>
+  </section>
+
+  <section id="destinos">
+    <h2>Destinos destacados</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>Lago Titicaca</h3>
+        <p>Descubre la magia del lago navegable más alto del mundo.</p>
+      </div>
+      <div class="card">
+        <h3>Cusco</h3>
+        <p>Historia, cultura y aventura en la capital del Imperio Inca.</p>
+      </div>
+      <div class="card">
+        <h3>Arequipa</h3>
+        <p>La ciudad blanca y sus impresionantes paisajes naturales.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="servicios">
+    <h2>Nuestros servicios</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>Paquetes turísticos</h3>
+        <p>Viajes completos adaptados a tus necesidades.</p>
+      </div>
+      <div class="card">
+        <h3>Reservas</h3>
+        <p>Hoteles, transporte y tours con total seguridad.</p>
+      </div>
+      <div class="card">
+        <h3>Asesoría personalizada</h3>
+        <p>Te acompañamos antes, durante y después de tu viaje.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contacto">
+    <h2>Contáctanos</h2>
+    <p>📍 Perú</p>
+    <p>📞 +51 999 999 999</p>
+    <p>✉️ agencylider@gmail.com</p>
+    <a href="https://wa.me/51999999999" class="btn">Escríbenos por WhatsApp</a>
+  </section>
+
+  <footer>
+    <p>© 2025 AgencyLider | Todos los derechos reservados</p>
+  </footer>
+
+</body>
+</html>
